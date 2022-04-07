@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +44,90 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.input-box{
+  border: 0;
+  outline: none;
+}
+
+.search{
+  height: 30vh;
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/410/59/609/rick-and-morty-tv-rick-sanchez-morty-smith-wallpaper-preview.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 20px;
+  
+}
+
+.search button, input{
+  margin-top: 23vh;
+  height: 30px;
+  
+}
+
+.search button{
+  background-color: #0a2f35;
+  border: none;
+  width: 60px;
+  color: #FBFBFB;
+}
+
+body{
+  background-color: #004B49; 
+
+
+}
+
+.info{
+  color: #FBFBFB;
+}
+
+.label{
+  color: #7E7E7E;
+}
+
+h3{
+  color: #FBFBFB;
+  font-weight: 400;
+  
+}
+
+.location-info{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.location-info li{
+  list-style: none;
+  color: #FBFBFB;
+}
+
+.location-container{
+  width: 80vw;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.resident-containter{
+  background-color: #0a2f35;
+  width: 30vw;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  padding-bottom: 10px;
+}
+
+.resident-containter img{
+  object-fit: none;
+  display: block;
+  width: 100%;
+}
+
+.resident-list{
+  width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
 }
