@@ -15,12 +15,13 @@ const SearchBox = ({ setLocation }) => {
 
     return (
         <div className='search'>
+            
             <input className='input-box'
                 size={50}
                 type="text" 
                 onChange={e => setSearch(e.target.value)} 
                 value = {search} 
-                placeholder='input a place ID' 
+                placeholder='input a place ID between 1 and 126' 
             />
             <button onClick={searchType}>
                 Search

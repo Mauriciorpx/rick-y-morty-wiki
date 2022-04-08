@@ -23,6 +23,7 @@ function App() {
   return (
     <div className="App">
       <SearchBox setLocation = {setLocation}/>
+      
       <LocationInfo location = {location}/>
       
       <ResidentsList residents ={location?.residents}/>
