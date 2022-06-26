@@ -8,7 +8,7 @@ import LocationInfo from "./components/LocationInfo";
 
 function App() {
   const [location, setLocation] = useState({});
-  const [suggetions, setSuggetions] = useState([]);
+  /* const [suggetions, setSuggetions] = useState([]); */
 
   useEffect(() => {
     /* Random number for a random location => Return a random number between 0 and 125, so we need add 1 */
